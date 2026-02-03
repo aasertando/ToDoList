@@ -5,9 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDoList || Juan Mestra</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script1.js"></script>
+    <!-- font para iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
     
+    <main>
+        <!-- Título de la lista personalizado-->
+        <div id="titulo">
+            <i class="fa-regular fa-calendar"></i>
+            <input type="text" placeholder="Nombre de la lista">
+        </div>
+
+
+        <!-- Lista de tareas -->
+        <div id="contenedorLista">
+
+            <ul id="lista">
+
+              <li class="item">
+                <input type="checkbox">
+                <input type="text">
+              </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- Controles de la lista -->
+        <div id="controles">
+            
+            <button id="btnAñadirItem">
+                <i class="fa-regular fa-square-plus"></i>
+            </button>
+
+            <button id="btnEliminarItem">
+                <i class="fa-regular fa-square-minus"></i>
+            </button>
+
+        </div>
+
+    </main>
 </body>
 </html>
+<!-- se coloca al final, para que al final de cargar el html
+ se ejecute el script y no alrrevez -->
+<script src="script1.js"></script>
