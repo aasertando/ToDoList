@@ -43,6 +43,6 @@ lista.addEventListener("change", function (event){
         } else if(!event.target.checked){
             event.target.parentElement.className = ("activo");
         };
-    };
+    };//hola
 
 });
