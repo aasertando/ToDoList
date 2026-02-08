@@ -1,0 +1,131 @@
+/* ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    padding: 8px;
+    margin: 5px;
+}
+
+.activo{
+    background-color: green;
+
+}
+
+.inactivo{
+    background-color: red;
+}
+
+#contenedorLista{
+    width: 500px;
+}
+
+#titulo{
+    font-size: 50px;
+} */
+
+
+
+/* chagepete */
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* FONDO GENERAL */
+body {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+main {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* TÍTULO */
+#titulo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+#titulo i {
+    font-size: 28px;
+    color: #555;
+}
+
+#titulo input {
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+/* LISTA */
+ul {
+    list-style: none;
+}
+
+/* ITEM */
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    background-color: #f2f2f2;
+}
+
+/* INPUT TEXTO */
+li input[type="text"] {
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 16px;
+}
+
+/* ESTADOS */
+.activo {
+    background-color: #e8f5e9;
+}
+
+.inactivo {
+    background-color: #fbe9e7;
+}
+
+/* CONTROLES */
+#controles {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#controles button {
+    border: none;
+    background-color: #ededed;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#controles button:hover {
+    background-color: #dcdcdc;
+}
