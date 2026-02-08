@@ -4,4 +4,6 @@ El botón de menos no se ha programado.
 Se espera añadir proximamente la funcionalidad de que los cambios se guarden automáticamente en tu navegador
 Puedes probar la pagina en la seccion de "deployments" a la derecha del proyecto -->
 
+O entrando a este enlace https://aasertando.github.io/ToDoList/
+
 <img width="1132" height="762" alt="imagen" src="https://github.com/user-attachments/assets/6a54bafe-565b-4efd-aac8-066ae5e5d65c" />
